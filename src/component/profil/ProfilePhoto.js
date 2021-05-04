@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ProfilePhoto = () => {
+const ProfilePhoto = (props) => {
     return (
-        <img src="/logo192.png" alt="myimage" />
+        <img src={props.photo} alt="myimage" />
 
 
 

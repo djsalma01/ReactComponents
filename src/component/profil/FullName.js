@@ -1,10 +1,10 @@
 import React from 'react'
 
-const FullNAme = () => {
+const FullNAme = (props) => {
     return (
 
         <p>
-            My FullNAme
+            My FullNAme is: {props.name}
         </p>
 
     );

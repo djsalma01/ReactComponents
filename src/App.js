@@ -6,9 +6,9 @@ import ProfilePhoto from "./component/profil/ProfilePhoto"
 function App() {
   return (
     <div>
-      <ProfilePhoto />
-      <FullNAme />
-      <Adresse />
+      <ProfilePhoto photo="/logo192.png" />
+      <FullNAme name="salma" />
+      <Adresse adresse="ALGER" />
     </div>
   );
 }

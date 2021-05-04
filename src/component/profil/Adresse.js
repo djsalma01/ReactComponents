@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Adresse = () => {
+const Adresse = (props) => {
     return (
 
         <p>
-            My adresse
+            My adresse is: {props.adresse}
         </p>
 
     );
